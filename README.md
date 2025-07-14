@@ -2,7 +2,6 @@
 
 A collection of tools for downloading, processing, and validating CAMS solar radiation data against ground-based measurements as part of the WETSA project.
 
----
 
 ## Description
 
@@ -15,14 +14,12 @@ The primary goal of these tools is to validate satellite-derived solar irradianc
 * **`codes/get-cams-solrad-ts.py`**: Downloads 1-minute resolution solar radiation time-series data (GHI, DHI, BNI) from the [CAMS](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-solar-radiation-timeseries) dataset for a list of specified locations. It automatically aggregates the data to 10-minute averages and archives the raw downloads.
 * **`codes/solrad-compare.py`**: Performs a detailed comparison between the processed 10-minute CAMS data and quality-controlled ground-based pyranometer data. It generates a comprehensive set of visualizations and statistical analyses to assess the performance of the CAMS model.
 
----
 
 ## Badges
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
 
----
 
 ## Visuals
 
@@ -35,7 +32,6 @@ The plot includes:
 * **GHI/DHI Ratio**: Plots the ratio of ground-measured GHI to DHI over time.
 
 <img src="solar_radiation_comparison_Padang_Pariaman.png" alt="Sample Comparison Plot" width="800"/>
------
 
 ## Installation
 
@@ -80,7 +76,6 @@ The plot includes:
 4.  **Configure your CDS API key:**
     Create a file named `.cdsapirc` in your home directory with your CDS URL and API key. Follow the instructions from the [CDS API documentation](https://cds.climate.copernicus.eu/api-how-to).
 
------
 
 ## Usage
 
@@ -105,7 +100,6 @@ Execute the comparison script. It will automatically find the matching CAMS and 
 python codes/solrad-compare.py
 ```
 
----
 
 ## Support
 
@@ -113,7 +107,6 @@ python codes/solrad-compare.py
 * For inquiries related to this repository, please contact **Alberth Nahas** (alberth.nahas@bmkg.go.id).
 * For specific inquiries about the WETSA project, you may contact **Vincent Villani** (vincent.villani@bom.gov.au).
 
----
 
 ## Roadmap
 
@@ -124,7 +117,6 @@ This toolkit is an initial component of WETSA WP1. Future development will focus
 * **Historical Data Processing**: Generating a historical GSO dataset for Indonesia to support further analysis;
 * **Software Handover**: Delivering the updated GSO software, documentation, and training guides to BMKG to build operational capacity.
 
----
 
 ## Contributing
 
@@ -138,7 +130,6 @@ If you wish to contribute, please follow these steps:
 4.  Submit a merge request with a clear description of your changes.
 5.  For major changes, please open an issue first to discuss what you would like to change.
 
----
 
 ## Authors and Acknowledgment
 
@@ -150,13 +141,11 @@ This work is a product of the **WETSA (Weather for Energy Transition in Southeas
 
 * **Funding**: This project is supported by the Australian Government's Department of Foreign Affairs and Trade (DFAT).
 
----
 
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
----
 
 ## Project Status
 
