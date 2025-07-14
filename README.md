@@ -13,6 +13,8 @@ The primary goal of these tools is to validate satellite-derived solar irradianc
 
 * **`codes/get-cams-solrad-ts.py`**: Downloads 1-minute resolution solar radiation time-series data (GHI, DHI, BNI) from the [CAMS](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-solar-radiation-timeseries) dataset for a list of specified locations. It automatically aggregates the data to 10-minute averages and archives the raw downloads.
 * **`codes/solrad-compare.py`**: Performs a detailed comparison between the processed 10-minute CAMS data and quality-controlled ground-based pyranometer data. It generates a comprehensive set of visualizations and statistical analyses to assess the performance of the CAMS model.
+* **`codes/compile-solrad.py`**: Combine all the processed 10-minute CAMS data as a single NetCDF file. It integrates all solar radiation variables as timeseries data for all locations.
+
 
 
 ## Badges
