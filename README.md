@@ -150,3 +150,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ## Project Status
 
 **Active**. This project is currently in the technical delivery phase (Phase 4), which is scheduled from **March to December 2025**.
+
+## Repository
+
+Click [here](https://cews.bmkg.go.id/tempatirk/WETSA/SOLAR_OBS/COMPARED_CAMS/) to access the generated plots.
