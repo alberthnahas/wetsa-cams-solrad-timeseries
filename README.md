@@ -103,7 +103,7 @@ python codes/solrad-compare.py
 
 ## Support
 
-* For bugs, questions, or feature requests, please **open an issue** on the GitLab issue tracker.
+* For bugs, questions, or feature requests, please **open an issue** on the Github issue tracker.
 * For inquiries related to this repository, please contact **Alberth Nahas** (alberth.nahas@bmkg.go.id).
 * For specific inquiries about the WETSA project, you may contact **Vincent Villani** (vincent.villani@bom.gov.au).
 
