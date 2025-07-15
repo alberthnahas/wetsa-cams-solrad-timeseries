@@ -104,7 +104,7 @@ def compile_solar_data_to_netcdf(location_file, file_pattern, output_file, exclu
                 print(f"  - Warning: File '{filename}' is empty. Skipping.")
                 continue
 
-            # Rename BNI column to DNI as requested.
+            # Rename BNI column to DNI.
             df.rename(columns={'BNI': 'DNI'}, inplace=True)
             
             # --- CORRECTED Time Conversion ---
@@ -174,7 +174,6 @@ def compile_solar_data_to_netcdf(location_file, file_pattern, output_file, exclu
 
     # --- 6. Save to NetCDF ---
     try:
-        # --- FIX: Define encoding for BOTH time and time_local ---
         # This ensures both time variables use the same units and calendar.
         encoding_options = {
             'time': {
